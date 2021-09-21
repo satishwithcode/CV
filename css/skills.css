@@ -1,0 +1,284 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+
+:root{
+  --bg-black-900: #000000;
+  --bg-black-100: #dddddd;
+  --bg-black-50:  #eff0f4;
+  --text-black-900: #000000;
+  --text-black-700: #555555;
+  --text-black-600: #666666;
+  --text-black-300: #bbbbbb;
+  --outer-shadow: .3rem .3rem .3rem #d0d0d0, -.3rem -.3rem .3rem #f8f8f8;
+  --outer-shadow-0: 0 0 0 #d0d0d0, 0 0 0 #f8f8f8;
+  --inner-shadow: inset .3rem .3rem .3rem #d0d0d0, inset -.3rem -.3rem .3rem #f8f8f8;
+  --inner-shadow-0: inset 0 0 0 #d0d0d0, inset 0 0 0 #f8f8f8;
+}
+
+body {
+  font-size: 2rem;
+  line-height: 1.5;
+  
+}
+
+*:not(i){
+  font-family: 'Raleway',sans-serif,'Comic Sans MS';
+  font-weight: 400;
+}
+*{
+  margin: 0;
+  padding: 0; 
+  font-family: 'Raleway',sans-serif,'Comic Sans MS';
+}
+html{
+  font-size: 10px;
+}
+
+a{
+
+  text-decoration:none;
+  color: var(--text-black-600);
+}
+img {
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+#Home{
+  width: 100%;
+  height: 100vh;
+  background: url("../img/0001.jpg")  top right no-repeat;
+  background-size: cover;
+}
+#Home:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+
+/*-------------------------img ------------------------*/
+h2{
+  color: var(--bg-black-900);
+  text-transform: uppercase;
+  font-weight: 500;
+}
+p{
+  color: var(--text-black-600);
+  font-weight: 500;
+}
+.img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+
+}
+
+.header{
+    position: absolute;
+    text-align: right;
+    top: 13.2%;
+    right: 5%;
+}
+.header h1{
+    font-size: 6rem;
+
+    margin-bottom: .5rem;
+    text-transform: uppercase;
+}
+.header h2{
+    font-size: 6rem;
+
+    text-transform: uppercase;
+    transform: translateY(-4.1rem);
+}
+.header p{
+  font-size: 2rem;
+  transform: translateY(-5rem);
+
+}
+
+.header h2 span{
+  font-size: 7rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: var(--bg-black-900);
+}
+.project{
+  position: absolute;
+  display: block;
+  top: 36%;
+  left: 5%;
+  flex: 0 0 44%;
+  max-width: 44%;
+}
+.project span{
+  font-weight: 700;
+  color: var(--text-black-700);
+   text-transform:capitalize ;
+}
+.project span p{
+  font-weight: 600;
+  font-size: 1.7rem; 
+  text-transform: capitalize;
+}
+.about{
+  position: absolute;
+  display: block;
+  top: 10%;
+  left: 5%;
+  flex: 0 0 38%;
+  max-width: 38%;
+}
+.about h2{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+.about p{
+  font-weight: 600;
+  font-size: 1.7rem;
+
+}
+.contact{
+  position: absolute;
+  bottom: 1.5%;
+  left: 5%;
+}
+.contact h2{
+  font-size: 2.8rem;
+   text-transform: uppercase;
+    
+}
+.contact p{
+
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+.contact p span{
+  color: var(--bg-black-900);
+  font-weight: 400;
+  margin-right: 2rem;
+
+}
+.contact p span i{
+  color: var(--skin-color);
+}
+
+.education{
+  position: absolute;
+  top: 40%;
+  right: 5%;
+}
+.education h2{
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+.education h3{
+  font-weight: 600;
+  color: var(--text-black-700);
+  
+}
+.education h3 p span{
+  color: var(--skin-color);
+  font-weight: 600;
+}
+.education .one{
+  margin-bottom: .8rem;
+}
+.education p{
+  font-size: 2rem;
+
+}
+.strength{
+  position: absolute;
+  bottom: 18.5%;
+  right: 5%;
+}
+.strength h2{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+.strength ul li{
+  font-size: 2rem;
+  color: var(--text-black-600);
+}
+.last-text{
+  position: absolute;
+  bottom: 8%;
+  right: 5%;
+  width: 59%;
+}
+.last-text p{
+  font-size: 2rem;
+}
+.name{
+  position: absolute;
+  right: 5%;
+  bottom: 2%;
+}
+/*----------------------------------------- about tabs -----------------------------------------------------*/
+.skills{
+    position: absolute;
+    top: 69%;
+    left: 13%;
+    width: 48%;
+}
+.skills .h2{
+  
+}
+}
+.skills .p{
+  font-size: 2rem;
+}
+
+
+
+  
+.team-popup{
+    position: absolute;
+    left: 3.8%;
+    top: 0;
+  }
+
+
+  .team-popup .tp-img{
+    max-width: 100%;
+
+    border-radius: 50%;
+  }
+  
+  .team-popup .tp-img .check-about-img{
+    padding: .3rem;
+    margin-top: 5rem;
+  }
+  
+  .team-popup .tp-img .check-about-img .img-box{
+    padding: .6rem;
+    border-radius: 50%;
+  }
+  .team-popup .tp-img .check-about-img .img-box img{
+    width: 68%;
+    height: 27vh;
+    display: flex;
+    border: .5rem solid transparent;
+    border-radius: 50%;
+  }
+  
+  .team-popup .tp-main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+  
